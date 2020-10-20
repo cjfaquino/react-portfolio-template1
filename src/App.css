@@ -79,6 +79,10 @@ footer {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.gridNewLine {
+  grid-column-start: 1;
+}
+
 @media (max-width: 1000px) {
   .homeGrid {
     grid-template-columns: repeat(1, 1fr);
@@ -119,12 +123,12 @@ footer {
   width: 211px;
   opacity: 0.5;
   transition: 0.5s;
-  overflow: hidden;
 }
 
 .cardImg:hover {
   opacity: 1;
   transition: 0.5s;
+  transform: translateX(-3%);
 }
 
 @media (max-width: 470px) {
@@ -142,13 +146,17 @@ footer {
   padding: 1em 0;
   background-color: white;
 }
+
+.cardTitle {
+  color: black;
+}
 .cardDesc {
   font-size: 0.65em;
   color: rgb(143, 143, 143);
 }
 
 .services h2 {
-  margin-top: 2em;
+  margin-top: 1.5em;
   font-size: 1.2em;
   font-weight: 500;
 }
@@ -157,4 +165,10 @@ footer {
   margin: 1em 0;
   font-size: small;
   font-weight: 400;
+}
+
+@media (max-width: 1000px) {
+  .services h2 {
+    margin-top: 0.5em;
+  }
 }

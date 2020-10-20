@@ -28,24 +28,28 @@ function App() {
       <h1 className="mainTitle">Services</h1>
       <div className="homeGrid">
         <div>
-          <h2>Web Development</h2>
+          <h2>Lorem, ipsum.</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum consequatur veniam odio unde praesentium
             natus, error magni tempore repellat est amet, atque et ipsam at iste. Ex.
           </p>
-          <h2>Hosting</h2>
+        </div>
+        <div>
+          <h2>Lorem, ipsum.</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus vitae magni molestiae quae quas temporibus
             voluptatem beatae voluptatibus sunt mollitia. Vel incidunt inventore illum blanditiis et a!
           </p>
         </div>
-        <div>
-          <h2>Consulting</h2>
+        <div className="gridNewLine">
+          <h2>Lorem, ipsum.</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repellat aliquid debitis sed maxime.
             Quisquam soluta maiores debitis laborum velit rem, mollitia animi culpa odio ut explicabo.
           </p>
-          <h2>Web Design</h2>
+        </div>
+        <div>
+          <h2>Lorem, ipsum.</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi obcaecati in accusantium earum! Eos magnam
             quisquam iure esse eum vel ipsa, excepturi laudantium, delectus autem a possimus.
