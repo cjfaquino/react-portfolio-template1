@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -10,10 +11,18 @@ export default function Footer() {
         All rights resserved.
       </div>
       <div className="footerLinks">
-        <span>curriculum vitae</span>
-        <span>email</span>
-        <span>github</span>
-        <span>linkedin</span>
+        <span>
+          <Link to="/cv">curriculum vitae</Link>
+        </span>
+        <span>
+          <a href="mailto:exmaple@email.com">email</a>
+        </span>
+        <span>
+          <a href="https://github.com/yourusername">github</a>
+        </span>
+        <span>
+          <a href="https://www.linkedin.com/in/yourusename">linkedin</a>
+        </span>
       </div>
     </footer>
   );
