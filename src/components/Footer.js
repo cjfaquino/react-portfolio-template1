@@ -8,7 +8,7 @@ export default function Footer() {
         <span className="nameFooter">
           <strong>Your name.</strong>
         </span>{' '}
-        All rights resserved.
+        All rights reserved.
       </div>
       <div className="footerLinks">
         <span>

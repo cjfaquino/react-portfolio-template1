@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import projects from './projects.json';
 
 export default function Projects() {
+  useEffect(() => {
+    // Update the document title using the browser API
+    document.title = `Home | Your Name`;
+  });
+
   const projectCard = projects.map((project, index) => (
-    <div className="projectCard" key={index + 1}>
-      <Link to={project.link}>
+    <div className="cardProject fade-in" key={index + 1}>
+      <Link to={project.routeProps.path}>
         <div className="cardImg">
           <img src={project.img} alt="" className="mainImg" />
         </div>

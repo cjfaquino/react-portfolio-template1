@@ -107,7 +107,7 @@ footer {
   overflow: hidden;
 }
 
-.projectCard {
+.cardProject {
   height: 390px;
   background-color: rgb(240, 240, 240);
   overflow: hidden;
@@ -185,7 +185,7 @@ footer {
 
 .projectImg {
   background-color: rgb(240, 240, 240);
-  display: inline-block;
+  display: block;
 }
 
 .mainImg-project {
@@ -193,4 +193,19 @@ footer {
   padding: 2em;
   margin: 0 auto;
   width: 85%;
+}
+
+.fade-in {
+  animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(5%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }

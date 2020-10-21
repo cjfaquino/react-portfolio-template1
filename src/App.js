@@ -10,7 +10,7 @@ import projects from './components/projects.json';
 
 function App() {
   const jumbo = (
-    <div className="jumbo">
+    <div className="jumbo fade-in">
       <h1 className="mainTitle">Lorem ipsum dolor sit amet consectetur adipisicing & elit.</h1>
       <div className="grid">
         <div className="jumboDesc">
@@ -27,7 +27,7 @@ function App() {
   );
 
   const services = (
-    <div className="services">
+    <div className="services fade-in">
       <h1 className="mainTitle">Services</h1>
       <div className="grid">
         <div>

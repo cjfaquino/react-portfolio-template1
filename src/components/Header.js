@@ -7,7 +7,7 @@ export default function Header() {
       <div>
         <div>
           <Link to="/" className="name">
-            <strong>your name here.</strong>
+            <strong>your name.</strong>
           </Link>
         </div>
         <div className="contractWork">
