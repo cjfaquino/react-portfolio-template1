@@ -4,8 +4,10 @@ export default function Header() {
   return (
     <header>
       <div>
-        <div className="name">
-          <strong>your name here.</strong>
+        <div>
+          <a href="/" className="name">
+            <strong>your name here.</strong>
+          </a>
         </div>
         <div className="contractWork">
           Available for contract work: <strong>Available</strong>

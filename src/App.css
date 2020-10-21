@@ -1,5 +1,10 @@
+header {
+  margin-bottom: 5em;
+}
+
 header .name {
   font-size: larger;
+  color: black;
 }
 
 .contractWork,
@@ -22,7 +27,8 @@ footer {
   margin-right: 1em;
 }
 
-.mainTitle {
+.mainTitle,
+.projectTitle {
   display: inline-block;
   font-size: 3em;
   max-width: 500px;
@@ -36,7 +42,8 @@ footer {
     float: left;
   }
 
-  .mainTitle {
+  .mainTitle,
+  .projectTitle {
     font-size: 2em;
   }
 }
@@ -65,17 +72,14 @@ footer {
   }
 }
 
-.jumbo {
-  margin-top: 5em;
-}
-
 .jumboDesc {
   margin-top: 2em;
 }
 
-.homeGrid {
+.grid {
   display: grid;
-  gap: 10px;
+  column-gap: 20px;
+  row-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -84,7 +88,7 @@ footer {
 }
 
 @media (max-width: 1000px) {
-  .homeGrid {
+  .grid {
     grid-template-columns: repeat(1, 1fr);
   }
 }
@@ -106,16 +110,9 @@ footer {
 
 .mainImg {
   position: relative;
-  top: 18%;
-  left: 40%;
-  width: 333px;
-}
-
-.backImg {
-  position: relative;
-  top: -50.5%;
-  left: 19%;
-  width: 415px;
+  top: 13%;
+  left: 20%;
+  width: 400px;
 }
 
 .cardImg {
@@ -132,9 +129,6 @@ footer {
 }
 
 @media (max-width: 470px) {
-  .mainImg {
-    left: 45%;
-  }
   .cardGrid {
     grid-template-columns: repeat(auto-fill, 165px);
   }
@@ -171,4 +165,22 @@ footer {
   .services h2 {
     margin-top: 0.5em;
   }
+}
+
+/* Projects view */
+.projectDesc {
+  margin-top: 2.5em;
+  margin-bottom: 5em;
+}
+
+.projectImg {
+  background-color: rgb(240, 240, 240);
+  display: inline-block;
+}
+
+.mainImg-project {
+  display: block;
+  padding: 2em;
+  margin: 0 auto;
+  width: 85%;
 }

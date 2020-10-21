@@ -7,7 +7,6 @@ export default function Projects() {
       <a href={project.link}>
         <div className="cardImg">
           <img src={project.img} alt="" className="mainImg" />
-          <img src="/imgs/laptop.png" alt="" className="backImg" />
         </div>
         <div className="cardInfo">
           <div className="cardTitle">{project.name}</div>

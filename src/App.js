@@ -1,15 +1,18 @@
 import React from 'react';
 import './App.css';
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
+import Project from './components/views/Project';
+import CV from './components/views/CV';
+import projects from './components/projects.json';
 
 function App() {
   const jumbo = (
     <div className="jumbo">
       <h1 className="mainTitle">Lorem ipsum dolor sit amet consectetur adipisicing & elit.</h1>
-      <div className="homeGrid">
+      <div className="grid">
         <div className="jumboDesc">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut veritatis illo quisquam sit praesentium, tempora
           quos doloribus fugit reiciendis. Animi facilis ipsum reprehenderit temporibus! Beatae sequi eos odit id rerum
@@ -26,7 +29,7 @@ function App() {
   const services = (
     <div className="services">
       <h1 className="mainTitle">Services</h1>
-      <div className="homeGrid">
+      <div className="grid">
         <div>
           <h2>Lorem, ipsum.</h2>
           <p>
@@ -58,15 +61,28 @@ function App() {
       </div>
     </div>
   );
-
   return (
-    <div className="App container">
-      <Header />
-      {jumbo}
-      <Projects />
-      {services}
-      <Footer />
-    </div>
+    <Router>
+      <div className="App container">
+        <Header />
+        <Switch>
+          <Route exact path="/">
+            {jumbo}
+            <Projects />
+            {services}
+          </Route>
+          <Route path="/cv">
+            <CV />
+          </Route>
+          {projects.map((item) => (
+            <Route {...item.routeProps} key={item.name}>
+              <Project {...item} />
+            </Route>
+          ))}
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

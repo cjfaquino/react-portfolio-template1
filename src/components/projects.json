@@ -1,107 +1,42 @@
 [
   {
-    "name": "Title",
-    "link": "/project",
-    "img": "/imgs/NewProject.jpg",
-    "desc": "Description",
-    "shortDesc": "Short description"
+    "name": "Title1",
+    "link": "/project1",
+    "routeProps": { "path": "/project1" },
+    "img": "/imgs/laptop01.png",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pellentesque accumsan gravida. Donec posuere tristique mauris sed sagittis. Nulla eleifend ex id risus semper ullamcorper. Nulla sit amet maximus turpis.",
+    "shortDesc": "Lorem ipsum dolor"
   },
   {
-    "name": "Title",
-    "link": "/project",
-    "img": "/imgs/NewProject.jpg",
-    "desc": "Description",
-    "shortDesc": "Short description"
+    "name": "Title2",
+    "link": "/project2",
+    "routeProps": { "path": "/project2" },
+    "img": "/imgs/laptop02.png",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pellentesque accumsan gravida. Donec posuere tristique mauris sed sagittis. Nulla eleifend ex id risus semper ullamcorper. Nulla sit amet maximus turpis.",
+    "shortDesc": "Lorem ipsum dolor"
   },
   {
-    "name": "Title",
-    "link": "/project",
-    "img": "/imgs/NewProject.jpg",
-    "desc": "Description",
-    "shortDesc": "Short description"
+    "name": "Title3",
+    "link": "/project3",
+    "routeProps": { "path": "/project3" },
+    "img": "/imgs/laptop03.png",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pellentesque accumsan gravida. Donec posuere tristique mauris sed sagittis. Nulla eleifend ex id risus semper ullamcorper. Nulla sit amet maximus turpis.",
+    "shortDesc": "Lorem ipsum dolor"
   },
   {
-    "name": "Title",
-    "link": "/project",
-    "img": "/imgs/NewProject.jpg",
-    "desc": "Description",
-    "shortDesc": "Short description"
+    "name": "Title4",
+    "link": "/project4",
+    "routeProps": { "path": "/project4" },
+    "img": "/imgs/laptop04.png",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pellentesque accumsan gravida. Donec posuere tristique mauris sed sagittis. Nulla eleifend ex id risus semper ullamcorper. Nulla sit amet maximus turpis.",
+    "shortDesc": "Lorem ipsum dolor"
   },
   {
-    "name": "Title",
-    "link": "/project",
-    "img": "/imgs/NewProject.jpg",
-    "desc": "Description",
-    "shortDesc": "Short description"
-  },
-  {
-    "name": "Title",
-    "link": "/project",
-    "img": "/imgs/NewProject.jpg",
-    "desc": "Description",
-    "shortDesc": "Short description"
-  },
-  {
-    "name": "Title",
-    "link": "/project",
-    "img": "/imgs/NewProject.jpg",
-    "desc": "Description",
-    "shortDesc": "Short description"
-  },
-  {
-    "name": "Title",
-    "link": "/project",
-    "img": "/imgs/NewProject.jpg",
-    "desc": "Description",
-    "shortDesc": "Short description"
-  },
-  {
-    "name": "Title",
-    "link": "/project",
-    "img": "/imgs/NewProject.jpg",
-    "desc": "Description",
-    "shortDesc": "Short description"
-  },
-  {
-    "name": "Title",
-    "link": "/project",
-    "img": "/imgs/NewProject.jpg",
-    "desc": "Description",
-    "shortDesc": "Short description"
-  },
-  {
-    "name": "Title",
-    "link": "/project",
-    "img": "/imgs/NewProject.jpg",
-    "desc": "Description",
-    "shortDesc": "Short description"
-  },
-  {
-    "name": "Title",
-    "link": "/project",
-    "img": "/imgs/NewProject.jpg",
-    "desc": "Description",
-    "shortDesc": "Short description"
-  },
-  {
-    "name": "Title",
-    "link": "/project",
-    "img": "/imgs/NewProject.jpg",
-    "desc": "Description",
-    "shortDesc": "Short description"
-  },
-  {
-    "name": "Title",
-    "link": "/project",
-    "img": "/imgs/NewProject.jpg",
-    "desc": "Description",
-    "shortDesc": "Short description"
-  },
-  {
-    "name": "Title",
-    "link": "/project",
-    "img": "/imgs/NewProject.jpg",
-    "desc": "Description",
-    "shortDesc": "Short description"
+    "name": "Title5",
+    "link": "/project5",
+    "routeProps": { "path": "/project5" },
+    "img": "/imgs/laptop05.png",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pellentesque accumsan gravida. Donec posuere tristique mauris sed sagittis. Nulla eleifend ex id risus semper ullamcorper. Nulla sit amet maximus turpis.",
+    "shortDesc": "Lorem ipsum dolor"
   }
 ]
