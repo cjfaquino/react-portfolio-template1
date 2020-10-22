@@ -31,19 +31,3 @@ git clone https://github.com/cjfaquino/react-portfolio-template1.git
 ```sh
 npm install
 ```
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm run deploy`
-
-to publish straight to gh-pages
-
-### `npm start`
-
-### `npm test`
-
-### `npm run build`
-
-### `npm run eject`
