@@ -10,7 +10,9 @@ To see the latest live version, go to [https://cjfaquino.com/](https://cjfaquino
 
 - Single page design
 
-- Custom fade-in, collapse animations
+- Custom fade-in animations
+
+- Simple pagination
 
 - Responsive web design with gridbox
 
