@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Current Portfolio",
+    "link": "https://cjfaquino.com",
+    "repo": "https://github.com/cjfaquino/react-second-portfolio.git",
+    "routeProps": { "path": "/current" },
+    "img": "/imgs/current.png",
+    "thumb": "imgs/current-thumb.png",
+    "desc": "Updating my portfolio after taking inspiration from many other web applications. One of my favorites for being minimal, and swift.",
+    "shortDesc": "Updated for for a more streamlined ux"
+  },
+  {
+    "name": "Ten Shabu",
+    "link": "https://tenshabu.cjfaquino.com",
+    "repo": "https://github.com/cjfaquino/react-tenshabu.git",
+    "routeProps": { "path": "/tenshabu" },
+    "img": "/imgs/tenshabu.png",
+    "thumb": "/imgs/tenshabu-thumb.png",
+    "desc": "Long overdue for a revitalization, this web app establishes a modern feel in line with its in house decorations.",
+    "shortDesc": " Traditional Japanese-style hot-pot"
+  },
+  {
+    "name": "Portfolio",
+    "link": "https://old.cjfaquino.com",
+    "repo": "https://github.com/cjfaquino/react-first-portfolio.git",
+    "routeProps": { "path": "/old" },
+    "img": "/imgs/old01.png",
+    "thumb": "/imgs/old01-thumb.png",
+    "desc": "My first personal project. This was my first step into becoming a web developer. Enjoyed creating this to learn ReactJS from the ground up.",
+    "shortDesc": "First step to a personal web portfolio"
+  },
+  {
+    "name": "CSS Visualizer",
+    "link": "https://css.cjfaquino.com",
+    "repo": "https://github.com/cjfaquino/react-css-visualizer.git",
+    "routeProps": { "path": "/css" },
+    "img": "/imgs/css.png",
+    "thumb": "/imgs/css-thumb.png",
+    "desc": "A helpful tool to help easily visualize CSS values as I learn to internalize common CSS practices. Without needing to create a new web app, I can see how I should plan out the main CSS.",
+    "shortDesc": "Quickly see CSS values"
+  },
+  {
+    "name": "YelpCamp",
+    "link": "https://yelpcamp-292601.uc.r.appspot.com/",
+    "repo": "https://github.com/cjfaquino/node-yelpcamp.git",
+    "routeProps": { "path": "/yelpcamp" },
+    "img": "/imgs/yelpcamp.png",
+    "thumb": "/imgs/yelpcamp-thumb.png",
+    "desc": "A NodeJS project created from Udemy course \"Web Developer Bootcamp\" by Colt Steele.",
+    "shortDesc": "Hand-picked campgrounds from all over the world"
+  },
+  {
+    "name": "Forkify",
+    "link": "https://forkify.cjfaquino.com",
+    "repo": "https://github.com/cjfaquino/forkify.git",
+    "routeProps": { "path": "/forkify" },
+    "img": "/imgs/forkify.png",
+    "thumb": "/imgs/forkify-thumb.png",
+    "desc": "A vanilla JS project created from Udemy course \"Complete JavaScript Course\" by Jonas Schmedtmann.",
+    "shortDesc": "Simple recipe management"
+  },
+  {
+    "name": "Budgety",
+    "link": "https://budgety.cjfaquino.com",
+    "repo": "https://github.com/cjfaquino/budgety.git",
+    "routeProps": { "path": "/budgety" },
+    "img": "/imgs/budgety.png",
+    "thumb": "/imgs/budgety-thumb.png",
+    "desc": "A vanilla JS project created from Udemy course \"Complete JavaScript Course\" by Jonas Schmedtmann.",
+    "shortDesc": "Simple asset managment"
+  }
+]
