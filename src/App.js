@@ -16,7 +16,6 @@ function App() {
           It makes me proud to be able to create beautiful code. Whether it be a passion project or commisioned project.
           With technology constantly changing, I enjoy learning better ways to improve on my existing knowledge on
           UI/UX, web development. Outside of web development, I enjoy tinkering with computers, cars, motorcycles.
-          Ocasionally, I'll tour around America.
         </div>
         <div className="jumboDesc">
           Well I wouldn't be a very good developer if I hadn't made my own site! If you would like to see some of my

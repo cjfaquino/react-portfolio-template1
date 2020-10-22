@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "name": "Current Portfolio",
     "link": "https://cjfaquino.com",
     "repo": "https://github.com/cjfaquino/react-second-portfolio.git",
@@ -10,6 +11,7 @@
     "shortDesc": "Updated for for a more streamlined ux"
   },
   {
+    "id": 1,
     "name": "Ten Shabu",
     "link": "https://tenshabu.cjfaquino.com",
     "repo": "https://github.com/cjfaquino/react-tenshabu.git",
@@ -20,6 +22,7 @@
     "shortDesc": " Traditional Japanese-style hot-pot"
   },
   {
+    "id": 2,
     "name": "Portfolio",
     "link": "https://old.cjfaquino.com",
     "repo": "https://github.com/cjfaquino/react-first-portfolio.git",
@@ -30,6 +33,7 @@
     "shortDesc": "First step to a personal web portfolio"
   },
   {
+    "id": 3,
     "name": "CSS Visualizer",
     "link": "https://css.cjfaquino.com",
     "repo": "https://github.com/cjfaquino/react-css-visualizer.git",
@@ -40,6 +44,7 @@
     "shortDesc": "Quickly see CSS values"
   },
   {
+    "id": 4,
     "name": "YelpCamp",
     "link": "https://yelpcamp-292601.uc.r.appspot.com/",
     "repo": "https://github.com/cjfaquino/node-yelpcamp.git",
@@ -50,6 +55,7 @@
     "shortDesc": "Hand-picked campgrounds from all over the world"
   },
   {
+    "id": 5,
     "name": "Forkify",
     "link": "https://forkify.cjfaquino.com",
     "repo": "https://github.com/cjfaquino/forkify.git",
@@ -60,6 +66,7 @@
     "shortDesc": "Simple recipe management"
   },
   {
+    "id": 6,
     "name": "Budgety",
     "link": "https://budgety.cjfaquino.com",
     "repo": "https://github.com/cjfaquino/budgety.git",
