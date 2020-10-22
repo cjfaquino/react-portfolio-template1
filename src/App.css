@@ -213,6 +213,13 @@ footer {
   width: 85%;
 }
 
+@media (max-width: 720px) {
+  .mainImg-project {
+    padding: 0.5em;
+    width: 95%;
+  }
+}
+
 .fade-in {
   animation: fadein 0.5s;
 }
