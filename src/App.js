@@ -72,9 +72,9 @@ function App() {
             <Projects />
             {services}
           </Route>
-          {projects.map((item) => (
+          {projects.map((item, index) => (
             <Route {...item.routeProps} key={item.name}>
-              <Project {...item} />
+              <Project {...item} id={index} />
             </Route>
           ))}
         </Switch>
