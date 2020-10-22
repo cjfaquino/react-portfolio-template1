@@ -74,9 +74,9 @@ function App() {
           <Route path="/cv">
             <CV />
           </Route>
-          {projects.map((item) => (
+          {projects.map((item, index) => (
             <Route {...item.routeProps} key={item.name}>
-              <Project {...item} />
+              <Project {...item} id={index} />
             </Route>
           ))}
         </Switch>
