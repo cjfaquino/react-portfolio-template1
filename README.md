@@ -15,17 +15,3 @@ To see the latest live version, go to [https://cjfaquino.com/](https://cjfaquino
 - Simple pagination
 
 - Responsive web design with gridbox
-
-## Getting Started
-
-### Clone or download this repository
-
-```sh
-git clone https://github.com/cjfaquino/react-portfolio-template1.git
-```
-
-### Install dependencies
-
-```sh
-npm install
-```
