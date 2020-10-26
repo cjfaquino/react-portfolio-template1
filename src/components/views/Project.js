@@ -26,18 +26,18 @@ export default function Project(props) {
       <div className="projectImg">
         <img src={props.img} alt="" className="mainImg-project" />
       </div>
-      {i > 0 ? (
+      {i > 0 && (
         <div className="lastPage">
           <p>Previous project</p>
           <Link to={lastProject.routeProps.path}>{lastProject.name}</Link>
         </div>
-      ) : null}
-      {i < j ? (
+      )}
+      {i < j && (
         <div className="nextPage">
           <p>Next project</p>
           <Link to={nextProject.routeProps.path}>{nextProject.name}</Link>
         </div>
-      ) : null}
+      )}
     </div>
   );
 }
