@@ -33,3 +33,7 @@ git clone https://github.com/cjfaquino/react-portfolio-template1.git
 ```sh
 npm install
 ```
+
+### Projects
+
+ - Add projects in JSON file
