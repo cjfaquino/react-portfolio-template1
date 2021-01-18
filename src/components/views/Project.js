@@ -5,7 +5,7 @@ import projects from './../projects.json';
 export default function Project(props) {
   useEffect(() => {
     // Update the document title using the browser API
-    document.title = `${props.name} | Your Name`;
+    document.title = `${props.name} | Christian Aquino`;
   });
   const i = props.id;
   const j = projects.length - 1;
