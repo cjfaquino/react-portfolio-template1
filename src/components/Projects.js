@@ -5,7 +5,7 @@ import projects from './projects.json';
 export default function Projects() {
   useEffect(() => {
     // Update the document title using the browser API
-    document.title = `Home | Your Name`;
+    document.title = `Home | Christian Aquino`;
   });
 
   const projectCard = projects.map((project, index) => (
