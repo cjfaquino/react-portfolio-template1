@@ -7,11 +7,13 @@ export default function Header() {
       <div>
         <div>
           <Link to="/" className="name">
-            <strong>your name.</strong>
+            <strong>Christian Aquino</strong>
           </Link>
         </div>
         <div className="contractWork">
-          Available for contract work: <strong>Available</strong>
+          <Link to="/" className="name">
+            Home
+          </Link>
         </div>
       </div>
     </header>

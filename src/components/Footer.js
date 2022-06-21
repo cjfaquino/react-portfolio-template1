@@ -1,27 +1,23 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
     <footer>
       <div>
         <span className="nameFooter">
-          <strong>Your name.</strong>
+          <strong>Christian Aquino.</strong>
         </span>{' '}
         All rights reserved.
       </div>
       <div className="footerLinks">
         <span>
-          <Link to="/cv">curriculum vitae</Link>
+          <a href="mailto:cjfaquino@outlook.com">email</a>
         </span>
         <span>
-          <a href="mailto:exmaple@email.com">email</a>
+          <a href="https://github.com/cjfaquino">github</a>
         </span>
         <span>
-          <a href="https://github.com/yourusername">github</a>
-        </span>
-        <span>
-          <a href="https://www.linkedin.com/in/yourusename">linkedin</a>
+          <a href="https://www.linkedin.com/in/cjfaquino">linkedin</a>
         </span>
       </div>
     </footer>

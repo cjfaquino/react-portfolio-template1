@@ -12,7 +12,7 @@ export default function Projects() {
     <div className="cardProject fade-in" key={index + 1}>
       <Link to={project.routeProps.path}>
         <div className="cardImg">
-          <img src={project.img} alt="" className="mainImg" />
+          <img src={project.thumb} alt="" className="mainImg" />
         </div>
         <div className="cardInfo">
           <div className="cardTitle">{project.name}</div>

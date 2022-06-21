@@ -13,5 +13,10 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: 'source-code-pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
+  padding: 0.05em 0.2em;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgb(213, 213, 213);
+  border-radius: 3px;
+  color: rgb(83, 160, 211);
 }

@@ -5,22 +5,21 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
 import Project from './components/views/Project';
-import CV from './components/views/CV';
 import projects from './components/projects.json';
 
 function App() {
   const jumbo = (
     <div className="jumbo fade-in">
-      <h1 className="mainTitle">Lorem ipsum dolor sit amet consectetur adipisicing & elit.</h1>
+      <h1 className="mainTitle">On the pursuit to impactful development & design.</h1>
       <div className="grid">
         <div className="jumboDesc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut veritatis illo quisquam sit praesentium, tempora
-          quos doloribus fugit reiciendis. Animi facilis ipsum reprehenderit temporibus! Beatae sequi eos odit id rerum
-          minus pariatur. Cum consectetur eum corporis tenetur ab culpa ratione?
+          It makes me proud to be able to create beautiful code. Whether it be a passion project or commisioned project.
+          With technology constantly changing, I enjoy learning better ways to improve on my existing knowledge on
+          UI/UX, web development. Outside of web development, I enjoy tinkering with computers, cars, motorcycles.
         </div>
         <div className="jumboDesc">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quam impedit ad, illum a in, delectus sunt
-          pariatur vel minus similique dolorem dolor error! Veniam rem corrupti voluptas laudantium quidem?
+          Well I wouldn't be a very good developer if I hadn't made my own site! If you would like to see some of my
+          projects, feel free to take a look at my portfolio, or get in touch.
         </div>
       </div>
     </div>
@@ -28,34 +27,36 @@ function App() {
 
   const services = (
     <div className="services fade-in">
-      <h1 className="mainTitle">Services</h1>
+      <h1 className="mainTitle">What I Do</h1>
       <div className="grid">
         <div>
-          <h2>Lorem, ipsum.</h2>
+          <h2>Web Design</h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum consequatur veniam odio unde praesentium
-            natus, error magni tempore repellat est amet, atque et ipsam at iste. Ex.
+            With the latest technology and standards I help to build personally tailored web application that will work
+            across all browsers while having a quality presence.
           </p>
         </div>
         <div>
-          <h2>Lorem, ipsum.</h2>
+          <h2>Web Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus vitae magni molestiae quae quas temporibus
-            voluptatem beatae voluptatibus sunt mollitia. Vel incidunt inventore illum blanditiis et a!
+            Currently enjoy coding with <code>ReactJS</code>. Specializing in front-end development, I hand-code my
+            applications using <code>JS</code>, <code>HTML5</code>, <code>CSS3</code> <code>Git</code>,{' '}
+            <code>GitHub</code>. Other projects have included <code>NodeJS</code>, <code>ExpressJS</code>,{' '}
+            <code>MongoDB</code>.
           </p>
         </div>
         <div className="gridNewLine">
-          <h2>Lorem, ipsum.</h2>
+          <h2>Responsive Design</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repellat aliquid debitis sed maxime.
-            Quisquam soluta maiores debitis laborum velit rem, mollitia animi culpa odio ut explicabo.
+            With the latest standards in <code>ReactJS</code> and <code>CSS3</code>, I'm able to create applications
+            that are properly responsive regardless of browser size to showcase the best features.
           </p>
         </div>
         <div>
-          <h2>Lorem, ipsum.</h2>
+          <h2>UI/UX Design</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi obcaecati in accusantium earum! Eos magnam
-            quisquam iure esse eum vel ipsa, excepturi laudantium, delectus autem a possimus.
+            Creating a seemless user experience is something I would spend most of my time with. Even down to the
+            smallest transitions.
           </p>
         </div>
       </div>
@@ -70,9 +71,6 @@ function App() {
             {jumbo}
             <Projects />
             {services}
-          </Route>
-          <Route path="/cv">
-            <CV />
           </Route>
           {projects.map((item, index) => (
             <Route {...item.routeProps} key={item.name}>
