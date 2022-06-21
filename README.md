@@ -4,7 +4,7 @@
 
 ## Live
 
-To see the latest live version, go to [https://cjfaquino.com/](https://cjfaquino.com/)
+To see the latest live version, go to [https://cjfaquino.github.io/react-second-portfolio/](https://cjfaquino.github.io/react-second-portfolio/)
 
 ## Features
 
